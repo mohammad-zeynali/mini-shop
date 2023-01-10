@@ -1,19 +1,4 @@
 "use strict"
-// Setting Slider Image 
-$(document).ready( function (){
-    $('.slider').slick({
-        rtl: true,
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        adaptiveHeight: true,
-        autoplaySpeed: 2000,
-        autoplay: true,
-
-    });
-
-  })
 // Start App Js :) Mohammad Zeynali 
 
 // User Form login
@@ -126,7 +111,21 @@ window.onload = function (){
    }
 }
 
+// Setting Slider Image 
+$(document).ready( function (){
+    $('.slider').slick({
+        rtl: true,
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        autoplaySpeed: 2000,
+        autoplay: true,
 
+    });
+
+  })
 
 
 // Style companies
