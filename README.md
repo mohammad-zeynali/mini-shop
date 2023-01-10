@@ -1,10 +1,4 @@
 
-<div align="center">
-  <img src="https://github.com/mohammad-zeynali/git-store/master/screenshot.png" style="border-radius:50%">
-</div>
-
----
-
 # minishop.com/fa page front-end
 ## [review online](https://mohammad-zeynali.github.io/git-store/)
 
