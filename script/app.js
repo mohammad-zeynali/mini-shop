@@ -120,7 +120,7 @@ $(document).ready( function (){
         speed: 300,
         slidesToShow: 1,
         adaptiveHeight: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         autoplay: true,
 
     });
