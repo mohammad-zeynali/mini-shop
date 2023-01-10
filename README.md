@@ -1,7 +1,7 @@
 
 
 # minishop.com/fa page front-end
-## [review online](https://mohammad-zeynali.github.io/git-store/)
+## [review online](https://mohammad-zeynali.github.io/mini-shop/)
 
 ---
 ## tips
