@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicone.ico">
+    <title>مینی شاپ | درباره ما  </title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fontAwesome/css/all.min.css"><!--font awesome-->
+</head>
+<body>
+    
+    <div id="overlay"></div> <!-- class="overlay" -->
+
+    <!-- 1= Header -->
+
+<header class="header shadow">
+    <div class="bg-shadow">
+
+    <section class="container">
+
+
+            <div class="header__top">
+
+
+                <div class="switch">
+                    <div class="flicker"></div>
+                    <div class="moon"></div>
+                  </div>
+
+                  <a href="#" class="header-users__account">
+                    <i class="fa fa-user"></i>
+                    <span>حساب کاربری</span>
+              </a>
+
+                <div class="header__social">
+                <a href="#" class="header-social__link facebook" title="فیسبوک"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="header-social__link instagram" title="اینستاگرام"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="header-social__link twitter" title="تویتر"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="header-social__link whatsapp" title="واتساپ"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            
+
+  
+            </div><!-- header__top -->
+        </div>
+
+        <nav class="nav-shadow">
+            <section class="container">
+
+              <div class="header-users">
+                     <div class="user-account">
+     
+                         <div class="user__close">
+                         <a href="#" class="user-account__close">
+                             <i class="fa fa-times"></i>
+                         </a>
+                     </div>
+     
+     
+                         <ul class="user-account__menu">
+     
+                             <li class="user-account-menu__item">
+                                 <a href="#" class="user-account-menu__link">ورود
+                                     <i class="fa fa-sign-in"></i>
+                                 </a>
+                             </li>
+     
+                             <li class="user-account-menu__item">
+                                 <a href="#" class="user-account-menu__link">
+                                     ثبت نام 
+                                     <i class="fa fa-user"></i>
+     
+                                 </a>
+                             </li>
+     
+                             <li class="user-account-menu__item">
+                                 <a href="#" class="user-account-menu__link">
+                                     پرداخت 
+                                     <i class="far fa-credit-card"></i>
+                                 </a>
+                             </li>
+                         </ul>
+     
+                         <div class="form-wrapper">
+                             <h5 class="form-wrapper__title">ورود سریع </h5>
+     
+                             <form action="#" class="form" id="form-login">
+     
+                                 <div class="input-wrapper">
+                                     <input type="email" placeholder="لطفا ایمیل خود را وارد نمایید ">
+                                 </div>
+     
+                                 
+                                 <div class="input-wrapper">
+                                     <input type="password" placeholder=" رمز عبور خود را وارد نمایید  ">
+                                 </div>
+     
+                                 <label for="login_radio" class="login_radio">
+                                     <input
+                                       type="radio"
+                                       id="login_radio"
+                                       class="login_radio_input"
+                                     />
+                                     <div class="radio__radio"></div>
+                                     مرا بخاطر بسپار
+                                   </label>
+                                 <button class="form__btn">وارد شوید </button>
+                             </form>
+                         </div>
+     
+     
+     
+     
+     
+                     </div>
+                 </div>
+
+
+
+            <div class="header__bottom">
+
+            <div class="nav-logo">
+                <img src="../images/iconeminishop.png" alt="logo MiniShop" class="nav-logo__img">
+            </div>
+
+            <ul class="menu">
+                <li class="menu__item"> <a href="../index.html" class="menu__link">خانه</a> </li>
+                <li class="menu__item item-under"> <a href="#" class="menu__link">محصولات</a></li>
+                <li class="menu__item"> <a href="weblog.html" class="menu__link"> وبلاگ</a> </li>
+                <li class="menu__item"> <a href="contact-us.html" class="menu__link">تماس با ما </a> </li>
+                <li class="menu__item"> <a href="about.html" class="menu__link"> در باره ما </a> </li>
+            </ul>
+
+
+            <div class="search-box">
+
+
+                <form action="#" class="search">
+                    <input type="text" placeholder="دنبال چه چیزی هستید" class="search__input">
+                    <button type="button" class="search__btn">
+                        <i class="fa fa-search"></i>
+                        </button>
+                </form>
+
+                <a id="user-basket" href="#" class="shop-cart">
+
+                 <i class="fa fa-cart-shopping basket-shop"></i>
+                </a>
+
+            </div><!-- search-box -->
+            <span class="header__icon"><i class="fa fa-bars"></i></span> <!-- display : none -->
+
+
+        </div><!-- header__bottom -->
+
+    </section>
+
+</nav>
+
+
+<section class="user-basket">
+    <div class="container">
+
+
+
+        <div class="shopping-cart">
+            <div class="shopping-cart__header">
+              <a href="#" class="shopping-cart__close">
+                <i class="fa fa-times"></i>
+              </a>
+              <h4 class="shopping-cart__title">سبد خرید</h4>
+              
+            </div>
+            <div class="shopping-cart__top">
+              <div class="shopping-cart__cart">
+                <div class="shopping-cart__cart-img">
+                  <img
+                    src="../images/basket/item-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="shopping-cart__cart-content">
+                  <div>
+                    <h5 class="cart-content__title"> حوله نرم </h5>
+                    <a href="#">
+                      <i class="fa fa-trash-can"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <p class="cart-content__price">۱۸۰,۰۰۰ تومان</p>
+                    <div class="shopping-cart__counter">
+                      <div class="shopping-cart__counter-add">
+                        <button><i class="fa fa-plus"></i></button>
+                      </div>
+                      <div class="shopping-cart__counter-value">
+                        <input class="shopping-cart__counter-value__input" value="1">
+                      </div>
+                      <div class="shopping-cart__counter-remove">
+                        <button><i class="fa fa-minus"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="shopping-cart__cart">
+                <div class="shopping-cart__cart-img">
+                  <img
+                    src="../images/basket/item-2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="shopping-cart__cart-content">
+                  <div>
+                    <h5 class="cart-content__title"> کفش اسپورت </h5>
+                    <a href="#">
+                      <i class="fa fa-trash-can"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <p class="cart-content__price">۱۸۰,۰۰۰ تومان</p>
+                    <div class="shopping-cart__counter">
+                      <div class="shopping-cart__counter-add">
+                        <button><i class="fa fa-plus"></i></button>
+                      </div>
+                      <div class="shopping-cart__counter-value">
+                        <input class="shopping-cart__counter-value__input" value="1">
+                      </div>
+                      <div class="shopping-cart__counter-remove">
+                        <button><i class="fa fa-minus"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="shopping-cart__cart">
+                <div class="shopping-cart__cart-img">
+                  <img
+                    src="../images/basket/item-3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="shopping-cart__cart-content">
+                  <div>
+                    <h5 class="cart-content__title"> کفش اسپورت </h5>
+                    <a href="#">
+                      <i class="fa fa-trash-can"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <p class="cart-content__price">۱۸۰,۰۰۰ تومان</p>
+                    <div class="shopping-cart__counter">
+                      <div class="shopping-cart__counter-add">
+                        <button><i class="fa fa-plus"></i></button>
+                      </div>
+                      <div class="shopping-cart__counter-value">
+                        <input class="shopping-cart__counter-value__input" value="1">
+                      </div>
+                      <div class="shopping-cart__counter-remove">
+                        <button><i class="fa fa-minus"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+       
+            </div>
+            <div class="shopping-cart__bottom">
+              <div class="shopping-bottom__up">
+                <div class="right-text">
+                  <p>جمع کل :</p>
+                </div>
+                <div class="left-text">
+                  <h4>۳۴۰,۰۰۰ تومان</h4>
+                </div>
+              </div>
+              <div class="shopping-bottom__middle">
+                <div class="right-btn">
+                  <button class="btn-normal">
+                    <i class="fa fa-cart-shopping-fast"></i>
+                    سبد خرید
+                  </button>
+                </div>
+                <div class="left-btn">
+                  <button class="btn-normal">
+                    <i class="fa fa-credit-card-front"></i>
+                    پرداخت
+                  </button>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+
+
+
+
+
+    </div>
+</section>
+
+</header>
+
+
+
+
+
+    <section class="about">
+        <div class="container">
+
+            <div class="about-content">
+            <h3 class="about__title">  درباره مینی شاپ </h3>
+            <p class="about__description">
+                وبسایت فروش لباس و کفش  زنانه و مردانه مینی شاپ  با نماد اطمینان از وزارت صنعت معدن و تجارت ، با اتکا به بیش از یک دهه حضور در مد و صنعت پوشاک مردانه پا به عرصه فروش اینترنتی نهاد.
+                رضایت مندی مشتری با عنایت به صدای مشتری،سهولت خرید و ارائه محصولات متنوع بر پایه مد و حتی جلوتر از مد جزء اصول و اهداف اولیه مکس مکس بوده و خواهد بود.
+                ما همواره سعی میکنیم تا در کمترین زمان ممکن با کمترین ضریب خطا و با استفاده از شیوه های نوین ثبت سفارش،ارسال و بسته بندی،محصولات خریداری شده را بدست مشتریان عزیز رسانده و روز به روز با نوآوری در این راه قدم برداریم.
+
+            </p>
+        </div>
+            
+        </div>
+        </section>
+
+
+
+
+<!-- 3= footer -->
+
+<footer class="footer">
+    <div class="container">
+      <section class="footer-items">
+  
+      <div class="footer-item">
+        <h4 class="footer-item__title">ارتباط با ما</h4>
+        <ul class="footer-menu">
+  
+          <li class="footer-menu__item footer-mega__menu">
+            <span class="footer-menu__title">ایمیل :</span>
+            <span class="footer-menu__text">Exampleshop@gmail.com</span> 
+          </li>
+  
+          <li class="footer-menu__item footer-mega__menu">
+            <span class="footer-menu__title"> تلفن : </span>
+            <span class="footer-menu__text">09141111111</span>
+          </li>
+  
+          <li class="footer-menu__item footer-mega__menu">
+            <span class="footer-menu__title"> تلفن شرکت : </span>
+            <span class="footer-menu__text">02121111111</span>
+          </li>
+          <li class="footer-menu__item footer-mega__menu">
+            <span class="footer-menu__title">ساعت کاری :</span>
+            <span class="footer-menu__text"> شنبه تا پنج شنبه ، 08:00 الی 20:00</span>
+          </li>
+        </ul>
+      </div>
+  
+  
+  
+      <div class="footer-item">
+  
+        <h4 class="footer-item__title"> اطلاعات </h4>
+        <ul class="footer-menu">
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link"> درباره ما </a></li>
+          <li class="footer-menu__item"> <a href="#" class="footer-menu__link"> تماس با ما </a> </li>
+          <li class="footer-menu__item"> <a href="#" class="footer-menu__link"> قوانین و مقررات  </a> </li>
+          <li class="footer-menu__item"> <a href="#" class="footer-menu__link"> تعویض و مرجوع </a> </li>
+          <li class="footer-menu__item"> <a href="#" class="footer-menu__link"> حمل و نقل و ارسال  </a> </li>
+        </ul>
+  
+      </div>
+  
+      <div class="footer-item">
+  
+        <h4 class="footer-item__title"> جزئیات حساب کاربری  </h4>
+        <ul class="footer-menu">
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">  حساب کاربری من  </a></li>
+          <li class="footer-menu__item"> <a href="#" class="footer-menu__link">مشاهدی سبد خرید</a></li>
+          <li class="footer-menu__item"> <a href="#" class="footer-menu__link"> لیست علاقه مندی  </a></li>
+          <li class="footer-menu__item"> <a href="#" class="footer-menu__link">وضعیت سفارش </a></li>
+          <li class="footer-menu__item"> <a href="#" class="footer-menu__link">تاریخچه سفارشات </a></li>
+        </ul>
+  
+      </div>
+      
+      
+      
+      <div class="footer-item">
+        <h4 class="footer-item__title"> ما را دنبال کنید : </h4>
+        <div class="footer-menu">
+          <li class="footer-menu__item"><a href="#" class=" footer-menu__link " title="فیسبوک"><i class="fab fa-facebook-f facebook social-footer"></i>فیسبوک</a></li>
+          <li class="footer-menu__item"><a href="#" class=" footer-menu__link " title="اینستاگرام"><i class="fab fa-instagram instagram social-footer"></i>اینستاگرام</a></li>
+          <li class="footer-menu__item"><a href="#" class=" footer-menu__link " title="تویتر"><i class="fab fa-twitter twitter social-footer"></i>تویتر</a></li>
+          <li class="footer-menu__item"><a href="#" class=" footer-menu__link " title="واتساپ"><i class="fab fa-whatsapp whatsapp social-footer"></i>واتساپ</a></li>
+      </div>
+      </div>
+  
+  
+    </section>
+    </div>
+  </footer>
+
+    <script src="../js/general.js"></script>
+</body>
+</html>
