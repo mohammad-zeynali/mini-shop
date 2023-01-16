@@ -1,6 +1,4 @@
 "use strict"
-
-
 // Start App Js :) Mohammad Zeynali 
 
 // User Form login
@@ -31,30 +29,30 @@ let weblogContainer = document.querySelector('.Weblog-items')
 
 // Save all information Product
 let allProductCartArray = [
-{id: 1 , title:'پیراهن جین اسپرت'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-1.png' , price:499000 },
-{id: 2 , title:'شلوار راحتی '  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-2.png' , price:249000 },
-{id: 3 , title:'شلوار کتان'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-3.png' , price:395000 },
-{id: 4 , title:'پیراهن مجلسی'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-4.png' , price:239000 },
-{id: 5 , title:'شلوار لی'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-5.png' , price:375000 },
-{id: 6 , title:'تی شرت'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-6.png' , price:225000 },
-{id: 7 , title:'بلوز کتان'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-7.png' , price:200000 },
-{id: 8 , title:'بلوز نخی'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-8.png' , price:499000 },
-{id: 9 , title:'کت شلوار زنانه'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-9.png' , price:500000 },
-{id: 10 , title:'ساعت کلاسیک مردانه'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-10.png' , price:350000 },
-{id: 11 , title:'ساعت کلاسیک مردانه'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-11.png' , price:499000 },
-{id: 12 , title:'کتونی ورزشی دخترانه '  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-12.png' , price:239000 },
-{id: 13 , title:' کتونی راحتی'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-13.png' , price:159000 },
-{id: 14 , title:' کتونی راحتی'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-14.png' , price:169000 },
-{id: 15 , title:' کتونی ورزشی پسرانه'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'images/product/product-15.png' , price:175000 },
+{id: 1 , title:'پیراهن جین اسپرت'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-1.png' , price:499000 },
+{id: 2 , title:'شلوار راحتی '  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-2.png' , price:249000 },
+{id: 3 , title:'شلوار کتان'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-3.png' , price:395000 },
+{id: 4 , title:'پیراهن مجلسی'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-4.png' , price:239000 },
+{id: 5 , title:'شلوار لی'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-5.png' , price:375000 },
+{id: 6 , title:'تی شرت'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-6.png' , price:225000 },
+{id: 7 , title:'بلوز کتان'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-7.png' , price:200000 },
+{id: 8 , title:'بلوز نخی'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-8.png' , price:499000 },
+{id: 9 , title:'کت شلوار زنانه'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-9.png' , price:500000 },
+{id: 10 , title:'ساعت کلاسیک مردانه'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-10.png' , price:350000 },
+{id: 11 , title:'ساعت کلاسیک مردانه'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-11.png' , price:499000 },
+{id: 12 , title:'کتونی ورزشی دخترانه '  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-12.png' , price:239000 },
+{id: 13 , title:' کتونی راحتی'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-13.png' , price:159000 },
+{id: 14 , title:' کتونی راحتی'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-14.png' , price:169000 },
+{id: 15 , title:' کتونی ورزشی پسرانه'  , description:'لورم ایپسوم نمونه متن آزمایشی می باشد که در صنعت طراحی مورد استفاده قرار می گیرد ' , image:'img/product-15.png' , price:175000 },
 ];
 
 
 // save all Weblog information 
 
 let allWeblogArray = [
-    {id: 1 , image:'images/weblog/blog1.png' , title : 'پیراهن جین ' , date: '17 آبان 1401 '},
-    {id: 2 , image:'images/weblog/blog2.png' , title : ' برند تجاری مد ' , date: '13 مهر 1401 '},
-    {id: 3 , image:'images/weblog/blog3.png' , title : ' محصولات جدید این فصل ' , date: '8 مهر 1401 '},
+    {id: 1 , image:'img/blog1.png' , title : 'پیراهن جین ' , date: '17 آبان 1401 '},
+    {id: 2 , image:'img/blog2.png' , title : ' برند تجاری مد ' , date: '13 مهر 1401 '},
+    {id: 3 , image:'img/blog3.png' , title : ' محصولات جدید این فصل ' , date: '8 مهر 1401 '},
 ]
 
 
@@ -112,8 +110,6 @@ window.onload = function (){
     bodyContainer.classList.add('dark')
    }
 }
-
-
 
 // Setting Slider Image 
 $(document).ready( function (){

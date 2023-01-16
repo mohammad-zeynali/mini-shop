@@ -1,5 +1,4 @@
 
-
 # minishop.com/fa page front-end
 ## [review online](https://mohammad-zeynali.github.io/mini-shop/)
 
@@ -11,9 +10,13 @@
 ## web development technologies
 * html 
 * css (css pure + flex box + css grid)
-* java script (javascript + jquary + slick)
+* java script (javascript + jquery + slick)
 ---
 ## contact me
 * *[email](mailto:051.mhmdzynaly977@gmail.com)*
 * *[telegram](https://t.me/zeynali2003/)*
 * *[instagram](https://instagram.com/zeynali2003/)*
+
+
+
+
