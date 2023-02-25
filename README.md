@@ -9,8 +9,8 @@
 ---
 ## web development technologies
 * html 
-* css (css pure + flex box + css grid)
-* java script (javascript + jquery + slick)
+* css (css pure + flex box)
+* java script (javascript + jquery + slick(for slider))
 ---
 ## contact me
 * *[email](mailto:051.mhmdzynaly977@gmail.com)*
